@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         Contact item1 = new Contact("Mary", 65, 1234567, 'F');
         alContactList.add(item1);
         Contact item2 = new Contact("Ken", 65, 7654321, 'M');
-
         alContactList.add(item2);
 
         caContact = new CustomAdapter(this, R.layout.row, alContactList);
