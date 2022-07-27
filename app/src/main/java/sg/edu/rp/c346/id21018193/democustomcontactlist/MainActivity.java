@@ -21,8 +21,9 @@ public class MainActivity extends AppCompatActivity {
         lvContact = findViewById(R.id.listViewContacts);
         alContactList = new ArrayList<>();
         Contact item1 = new Contact("Mary", 65, 1234567, 'F');
-        Contact item2 = new Contact("Ken", 65, 7654321, 'M');
         alContactList.add(item1);
+        Contact item2 = new Contact("Ken", 65, 7654321, 'M');
+
         alContactList.add(item2);
 
         caContact = new CustomAdapter(this, R.layout.row, alContactList);
