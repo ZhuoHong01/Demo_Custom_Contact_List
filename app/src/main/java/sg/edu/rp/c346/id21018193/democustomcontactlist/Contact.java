@@ -1,7 +1,5 @@
 package sg.edu.rp.c346.id21018193.democustomcontactlist;
 
-import java.util.Calendar;
-
 public class Contact {
 
     private String name;
