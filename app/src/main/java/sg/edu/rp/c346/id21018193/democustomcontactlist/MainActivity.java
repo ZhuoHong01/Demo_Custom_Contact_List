@@ -25,5 +25,8 @@ public class MainActivity extends AppCompatActivity {
         alContactList.add(item1);
         alContactList.add(item2);
 
+        caContact = new CustomAdapter(this, R.layout.row, alContactList);
+        lvContact.setAdapter(caContact);
+
     }
 }
